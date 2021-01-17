@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+
+.para {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0 0 0 15px;
+  color: #40ff4a;
+  font-family: 'Courier Prime', monospace;
+  font-size: 22px;
+}
